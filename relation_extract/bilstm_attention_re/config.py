@@ -1,7 +1,7 @@
 import os
-from data_helper import *
+# from data_helper import *
 
-root_dir = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
+root_dir = os.path.abspath(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
 relation_file_path = root_dir + "/data/relation_extract/relation2id.txt"
 train_file_path = root_dir + "/data/relation_extract/train.txt"
 model_saved_path = root_dir + "/models/bilstm_attention_re.h5"
